@@ -1,2 +1,2 @@
 # bootcamp-java-dio
-Desafios de projeto do bootcamp da DIO sobre Java
+Exercicios e Desafios de projeto do bootcamp da DIO sobre Java
