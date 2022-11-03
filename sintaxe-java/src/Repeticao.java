@@ -22,6 +22,25 @@ o primeiro representando o nome do aluno e o segundo representando sua idade
         }
         
         System.out.println("Fim do loop");
+
+
+
+        /*Faça um programa que peça uma nota, entre zero e dez.
+         * Mostre uma mensagem caso o valor seja invalido
+         * e continue pedindo 
+         * ate que o usuario informe um valor valido.
+         */
+
+         int nota;
+
+         System.out.println("Digite sua nota: ");
+         nota = scan.nextInt();
+
+         while (nota < 0 || nota > 10) {
+            System.out.println("Nota Invalida! Digite novamente: ");
+            nota = scan.nextInt();
+         }
     }
+    
     
 }
